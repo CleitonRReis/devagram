@@ -1,10 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,CAAC,CAAC;EACA,WAAW,ECFC,kBAAkB;EDG9B,SAAS,EAAE,IAAI;CAChB;;AELD,UAAU;EACN,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,0BAA0B,CAAC,kBAAkB;;;AAGtD,UAAU;EACN,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,0BAA0B,CAAC,kBAAkB;;;AAGtD,UAAU;EACN,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,wBAAwB,CAAC,kBAAkB",
+    "mappings": "AAEA,AAAA,CAAC,CAAC;EACA,WAAW,ECFC,kBAAkB;EDG9B,SAAS,EAAE,IAAI;CAChB;;AELD,UAAU;EACN,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,0BAA0B,CAAC,kBAAkB;;;AAGtD,UAAU;EACN,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,0BAA0B,CAAC,kBAAkB;;;AAGtD,UAAU;EACN,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,wBAAwB,CAAC,kBAAkB;;;ACZpD,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;CACd",
     "sources": [
         "globals.scss",
         "variaveis.scss",
-        "../public/fonts/fonts.scss"
+        "../public/fonts/fonts.scss",
+        "../componentes/botao/botao.scss"
     ],
     "names": [],
     "file": "globals.css"

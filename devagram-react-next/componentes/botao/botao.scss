@@ -1,0 +1,39 @@
+@mixin botaoPrimario {
+    background: $corPrimaria;
+    color: $branco;
+}
+
+@mixin botaoContorno {
+    background: $branco;
+    color: $corPrimaria;
+    border: 1px $corPrimaria solid;
+}
+
+.btn {
+    width: 15%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s ease;
+
+    &.primaria {
+        @include botaoPrimario;
+
+        &:hover {
+            @include botaoContorno;
+        }
+    }
+
+    &.contorno {
+        @include botaoContorno;
+
+        &:hover {
+            @include botaoPrimario;
+        }
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+}

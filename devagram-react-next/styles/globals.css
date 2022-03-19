@@ -17,4 +17,8 @@
   font-family: 'Biennale light';
   src: url("BiennaleLight.otf") format("opentype");
 }
+
+.btn {
+  width: 100%;
+}
 /*# sourceMappingURL=globals.css.map */
