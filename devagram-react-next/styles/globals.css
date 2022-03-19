@@ -3,6 +3,12 @@
   font-size: 14px;
 }
 
+.avatar {
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @font-face {
   font-family: 'Biennale Regular';
   src: url("BiennaleRegular.otf") format("opentype");
@@ -20,5 +26,37 @@
 
 .btn {
   width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.btn.primaria {
+  background: #5E49FF;
+  color: #FFF;
+}
+
+.btn.primaria:hover {
+  background: #FFF;
+  color: #5E49FF;
+  border: 1px #5E49FF solid;
+}
+
+.btn.contorno {
+  background: #FFF;
+  color: #5E49FF;
+  border: 1px #5E49FF solid;
+}
+
+.btn.contorno:hover {
+  background: #5E49FF;
+  color: #FFF;
+}
+
+.btn:disabled {
+  opacity: 0.5;
 }
 /*# sourceMappingURL=globals.css.map */
